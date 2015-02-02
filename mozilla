@@ -1,3 +1,7 @@
 This is a (hopefully) comprehensive list of the IP addresses of STUN servers called by Mozilla browsers...
 
 54.172.47.69
+
+stun.services.mozilla.com
+stun.services.mozilla.com is an alias for stun1.webrtc.us-east-1.prod.mozaws.net
+54.172.47.69

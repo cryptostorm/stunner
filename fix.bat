@@ -14,3 +14,5 @@ netsh advfirewall firewall add rule name="No STUN leak for j00!" dir=out action=
 netsh advfirewall firewall add rule name="No STUN leak for j00!" dir=out action=block remoteip=74.125.136.127 protocol=any
 netsh advfirewall firewall add rule name="No STUN leak for j00!" dir=out action=block remoteip=74.125.142.127 protocol=any
 netsh advfirewall firewall add rule name="No STUN leak for j00!" dir=out action=block remoteip=74.125.200.127 protocol=any
+::to disable the above use: (without the :: at the beginning)
+::netsh advfirewall firewall del rule name="No STUN leak for j00!"

@@ -6,3 +6,7 @@ netsh advfirewall firewall add rule name="No STUN leak for j00!" dir=out action=
 netsh advfirewall firewall add rule name="No STUN leak for j00!" dir=out action=block protocol=UDP remoteport=3478
 netsh advfirewall firewall add rule name="No STUN leak for j00!" dir=in action=block protocol=UDP localport=3478
 netsh advfirewall firewall add rule name="No STUN leak for j00!" dir=in action=block protocol=UDP remoteport=3478
+netsh advfirewall firewall add rule name="No STUN leak for j00!" dir=out action=block protocol=UDP localport=19302
+netsh advfirewall firewall add rule name="No STUN leak for j00!" dir=out action=block protocol=UDP remoteport=19302
+netsh advfirewall firewall add rule name="No STUN leak for j00!" dir=in action=block protocol=UDP localport=19302
+netsh advfirewall firewall add rule name="No STUN leak for j00!" dir=in action=block protocol=UDP remoteport=19302
